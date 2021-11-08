@@ -1,10 +1,8 @@
-
-
 body{
     margin-top:20px;
     color: #1a202c;
     text-align: left;
-    background: url(background.jpg) no-repeat center center fixed; 
+    /* background: url(shiba.jpg) no-repeat center center fixed;  */
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -64,6 +62,4 @@ img.yuvarlak {
     width: 250px;
     object-fit: cover;
 }
-.navbar-dark{
-    background: red;
-}
+
