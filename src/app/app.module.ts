@@ -9,7 +9,8 @@ import { LoginComponent } from './components/login/login.component';
 import { NaviComponent } from './components/navi/navi.component';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
-import { GpsComponent } from './components/gps/gps.component';
+import { StartballComponent } from './components/startball/startball.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { GpsComponent } from './components/gps/gps.component';
     LoginComponent,
     NaviComponent,
     HomeComponent,
-    GpsComponent
+    StartballComponent
   ],
   imports: [
     BrowserModule,
