@@ -1,3 +1,5 @@
+import { RegisterComponent } from './components/register/register.component';
+
 import { StartballComponent } from './components/startball/startball.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProfileComponent } from './components/profile/profile.component';
@@ -8,7 +10,9 @@ const routes: Routes = [
   {path:"",pathMatch:"full",component:ProfileComponent},
   {path:"profiles",component:ProfileComponent},
   {path:"home",component:HomeComponent},
-  {path:"startball",component:StartballComponent}
+  {path:"startball",component:StartballComponent},
+  {path:"register",component:RegisterComponent}
+
 ];
 
 

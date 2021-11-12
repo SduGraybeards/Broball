@@ -10,6 +10,8 @@ import { NaviComponent } from './components/navi/navi.component';
 import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './components/home/home.component';
 import { StartballComponent } from './components/startball/startball.component';
+import { RegisterComponent } from './components/register/register.component';
+
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { StartballComponent } from './components/startball/startball.component';
     LoginComponent,
     NaviComponent,
     HomeComponent,
-    StartballComponent
+    StartballComponent,
+    RegisterComponent,
+  
   ],
   imports: [
     BrowserModule,
