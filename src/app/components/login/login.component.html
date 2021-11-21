@@ -1,39 +1,47 @@
-<!-- <body class="text-center">
-    <main class="form-signin">
-      <form [formGroup]="loginForm">
-        <h1 class="h3 mb-3 fw-normal">Giriş yap</h1>
-  
-        <div class="form-floating">
-          <input
-            formControlName="email"
-            type="email"
-            class="form-control"
-            id="floatingInput"
-            placeholder="name@example.com"
-          />
-          <label for="floatingInput">E-posta</label>
-        </div>
-        <div class="form-floating">
-          <input
-          formControlName="password"
-            type="password"
-            class="form-control"
-            id="floatingPassword"
-            placeholder="Password"
-          />
-          <label for="floatingPassword">Parola</label>
-        </div>
-  
-        <div class="checkbox mb-3">
-          <label>
-            <input type="checkbox" value="remember-me" /> Remember me
-          </label>
-        </div>
-        <button class="w-100 btn btn-lg btn-primary" (click)="login()">
-          Giriş yap
-        </button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p>
-      </form>
-    </main>
-  </body>
-   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+  <link rel="stylesheet" href="login.component.css">
+</head>
+<body>  
+  <div class="col">
+  <div class="row md-6 col-md-9" style="margin-left:165px">
+
+    <img src="assets/images/broball.jpg" style="width:100%;height:452px;margin-bottom: px;"
+    alt="Windows Firewall" id="logo">
+    </div>
+    <div class="row md-6">
+  <form action="#" class="login-form" style="margin-left: 413px; background-color:black;">
+    
+    <h1>Giriş Yap </h1>
+    <div class="textb">
+      <input type="text" required id="inputEmail4" placeholder="...@gmail.com">
+      
+    </div>
+
+    <div class="textb">
+      <input type="password" required id="password" placeholder="****">
+      
+      <div class="show-password fas fa-eye-slash"></div>
+    </div>
+
+    <div class="checkbox">
+      <input type="checkbox">
+      <div class="fas fa-check"></div>
+      Beni Hatırla
+    </div>
+
+    <button class="btn fas fa-arrow-right"type="submit" routerLink="/register" ></button>
+
+    <a href="/register">Hesap Oluştur</a>
+  </form>
+  </div>
+</div>
+
+ 
+</body>
+</html>

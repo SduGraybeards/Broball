@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StartballComponent implements OnInit {
 
-  constructor() { }
+  lat = 37.7647;
+  lng = 30.5567;
 
+  constructor() { }
+  
   ngOnInit(): void {
+
+
+    
   }
 
   

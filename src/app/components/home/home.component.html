@@ -1,28 +1,709 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container-fluid">
-        <div id="hero">
-            <video autoplay loop muted>
-                <source src="/src/assets/backvid.mp4" type="video/mp4">
-            </video>
 
-            <div class="content">
-                <div class="container">
-                  <h1>Broball</h1>
-                  <p>Full Screen Background</p>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="/src/styles.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <div class="container-fluid">
+    <div class="main-body">
+      <div class="row-gutters-sm">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+
+
+
+              <div class="col-md-12">
+
+                <img src="assets/images/broball.gif" style="width:100%;height:500px;margin-bottom: 5px;"
+                  alt="Windows Firewall" id="logo">
+              </div>
+
+              <div class="col-md-12">
+                <div class="gradient-overlay py-5  text-center" style="background:darkgrey;">
+                  <div class="container py-5" style="color:green; font-size: 31px; font-style: italic;">
+                    BroBall - Hoş Geldiniz!
+                    <br>
+                    BroBall İle Oyuna Hazırlanın
+                  </div>
                 </div>
               </div>
+
+
+
+              <div class="row gutters-sm">
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3">Leaderboard</h6>
+                      <hr>
+                      <div class="row">
+                        <div class="col">
+                          <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Usarname</th>
+                                <th scope="col">Takımı</th>
+
+                              </tr>
+                            </thead>
+                            <tbody>
+
+
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>tolga</td>
+                                <td>budanoğlu</td>
+                                <td>@inflamesonf</td>
+                                <td>@gaga</td>
+
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                                <td>@fat</td>
+
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td>sdffsdf</td>
+                                <td>@dsgsdg</td>
+                                <td>@tdsfdsf</td>
+                                <td>@tDSFSDF</td>
+
+
+
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td>tolga</td>
+                                <td>budanoğlu</td>
+                                <td>@inflamesonf</td>
+                                <td>@gaga</td>
+
+                              </tr>
+
+                              <tr>
+                                <th scope="row">5</th>
+                                <td>tolga</td>
+                                <td>budanoğlu</td>
+                                <td>@inflamesonf</td>
+                                <td>@gaga</td>
+
+                              </tr>
+
+                              <tr>
+                                <th scope="row">6</th>
+                                <td>tolga</td>
+                                <td>budanoğlu</td>
+                                <td>@inflamesonf</td>
+                                <td>@gaga</td>
+
+                              </tr>
+
+
+                              <tr>
+                                <th scope="row">7</th>
+                                <td>tolga</td>
+                                <td>budanoğlu</td>
+                                <td>@inflamesonf</td>
+                                <td>@gaga</td>
+
+                              </tr>
+
+
+                              <tr>
+                                <th scope="row">8</th>
+                                <td>tolga</td>
+                                <td>budanoğlu</td>
+                                <td>@inflamesonf</td>
+                                <td>@gaga</td>
+
+                              </tr>
+
+
+                              <tr>
+                                <th scope="row">9</th>
+                                <td>tolga</td>
+                                <td>budanoğlu</td>
+                                <td>@inflamesonf</td>
+                                <td>@gaga</td>
+
+                              </tr>
+
+
+                              <tr>
+                                <th scope="row">10</th>
+                                <td>tolga</td>
+                                <td>budanoğlu</td>
+                                <td>@inflamesonf</td>
+                                <td>@gaga</td>
+
+                              </tr>
+
+
+                              <tr>
+                                <th scope="row">...</th>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+
+                              </tr>
+                            </tbody>
+                          </table>
+
+
+                        </div>
+
+                      </div>
+                      <nav aria-label="Page navigation example" style="margin-top: 80px;">
+                        <ul class="pagination justify-content-center">
+                          <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                              href="#">Önceki</a></li>
+                          <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                              href="#">1</a></li>
+                          <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                              href="#">2</a></li>
+                          <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                              href="#">3</a></li>
+                          <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                              href="#">Sonraki</a></li>
+                        </ul>
+                      </nav>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3">Team Leaderboard </h6>
+                      <hr>
+
+
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Takım İsmi </th>
+                            <th scope="col">Galibiyet Sayısı</th>
+                            <th scope="col">Yenilgi Sayısı</th>
+                            <th scope="col">Beraberlik Sayısı</th>
+                            <th scope="col">Averaj</th>
+                            <th scope="col">Puan</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>dgsgdgs</td>
+                            <td>12</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Jacob</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>fgdfgd</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+                            <td>25</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>fgdfgd</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+                            <td>25</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>fgdfgd</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+                            <td>25</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>fgdfgd</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+                            <td>25</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>fgdfgd</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+                            <td>25</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">8</th>
+                            <td>fgdfgd</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+                            <td>25</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">9</th>
+                            <td>fgdfgd</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+                            <td>25</td>
+                          </tr>
+
+
+                          <tr>
+                            <th scope="row">10</th>
+                            <td>fgdfgd</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td>1</td>
+                            <td>25</td>
+                            <td>25</td>
+                          </tr>
+
+                          <tr>
+                            <th scope="row">...</th>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                            <td>...</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">Önceki</a></li>
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">Sonraki</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="row gutters-sm">
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3">Kiralık Ürünlerimiz</h6>
+                      <hr>
+
+                      <div class="row">
+                        <div class="col-md-3 " style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <img src="assets/images/krampon1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <footer class="blockquote-footer mb-4">
+                                <cite class="card-text"> Ben bir kiralık ürünüm
+                                </cite>
+                                <br>
+                                <cite class="card-text"> 30 TL
+                                </cite>
+                              </footer>
+                              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" style="background-color: green;"
+                                  type="button">Kirala</button>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="col-md-3 " style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <img src="assets/images/krampon2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <footer class="blockquote-footer mb-4">
+                                <cite class="card-text"> Ben bir kiralık ürünüm
+                                </cite>
+                                <br>
+                                <cite class="card-text"> 30 TL
+                                </cite>
+                              </footer>
+                              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" style="background-color: green;"
+                                  type="button">Kirala</button>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        </div>
+
+
+                        <div class="col-md-3 " style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <img src="assets/images/kaleciEldiveni.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <footer class="blockquote-footer mb-4">
+                                <cite class="card-text"> Ben bir kiralık ürünüm
+                                </cite>
+                                <br>
+                                <cite class="card-text"> 25 TL
+                                </cite>
+                              </footer>
+                              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" style="background-color: green;"
+                                  type="button">Kirala</button>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        </div>
+
+
+                        <div class="col-md-3 " style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <img src="assets/images/krampon3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <footer class="blockquote-footer mb-4">
+                                <cite class="card-text"> Ben bir kiralık ürünüm
+                                </cite>
+                                <br>
+                                <cite class="card-text"> 35 TL
+                                </cite>
+                              </footer>
+                              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" style="background-color: green;"
+                                  type="button">Kirala</button>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        </div>
+
+
+
+
+
+
+
+                      </div>
+
+                    </div>
+                    <nav aria-label="Page navigation example">
+                      <ul class="pagination justify-content-center">
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">Önceki</a></li>
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                            href="#">Sonraki</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+
+
+
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3">Maçlardan görüntüler </h6>
+                      <hr>
+
+                      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="assets/images/mac.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/images/mac3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="assets/images/mac2.jpg" class="d-block w-100 h-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                          data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                          data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row gutters-sm">
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3">Merket</h6>
+                      <hr>
+
+                      <div class="row" style="padding-top: 50px;">
+                        <div class="col-md-3 " style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <img src="assets/images/krampon1.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <footer class="blockquote-footer mb-4">
+                                <cite class="card-text"> Ben bir ürünüm
+                                </cite>
+                                <br>
+                                <cite class="card-text"> 425 TL
+                                </cite>
+                              </footer>
+                              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" style="background-color: green;"
+                                  type="button">Satın Al</button>
+                              </div>
+
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="col-md-3 " style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <img src="assets/images/krampon2.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <footer class="blockquote-footer mb-4">
+                                <cite class="card-text"> Ben bir ürünüm
+                                </cite>
+                                <br>
+                                <cite class="card-text"> 425 TL
+                                </cite>
+                              </footer>
+                              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" style="background-color: green;"
+                                  type="button">Satın Al</button>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div class="col-md-3 " style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <img src="assets/images/kaleciEldiveni.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <footer class="blockquote-footer mb-4">
+                                <cite class="card-text"> Ben bir ürünüm
+                                </cite>
+                                <br>
+                                <cite class="card-text"> 250 TL
+                                </cite>
+                              </footer>
+                              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" style="background-color: green; "
+                                  type="button">Satın Al</button>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                        <div class="col-md-3 " style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <img src="assets/images/krampon3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <footer class="blockquote-footer mb-4">
+                                <cite class="card-text"> Ben bir ürünüm
+                                </cite>
+                                <br>
+                                <cite class="card-text"> 425 TL
+                                </cite>
+                              </footer>
+                              <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                <button class="btn btn-primary me-md-2" style="background-color: green; "
+                                  type="button">Satın Al</button>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                        <nav aria-label="Page navigation example" style="margin-top:90px;">
+                          <ul class="pagination justify-content-center">
+                            <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                                href="#">Önceki</a></li>
+                            <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                                href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                                href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                                href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" style="color :white; background-color:green;"
+                                href="#">Sonraki</a></li>
+                          </ul>
+                        </nav>
+
+
+
+
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-sm-6 mb-3">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <h6 class="d-flex align-items-center mb-3">Abonemiz Olmak İster Misiniz ? </h6>
+                      <hr>
+                      <div class="row">
+                        <div class="col-md-6" style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <div class="card-body">
+                              <h5 class="card-title">1 AYLIK <br>
+                                Kampanyasız</h5>
+                              <h6 class="card-subtitle mb-2 text-muted">150 TL</h6>
+                              <p class="card-text">.%15 halı saha indirimi <br>
+                                .%15 market indirimi <br>
+                                .haftada bir kere ayakkabi kiralama ücretsiz <br>
+                              </p>
+                              <a href="#" class="card-link" style="color: green;">Satın Al</a>
+
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6" style="margin-bottom:10px;">
+                          <div class="card" style="width: auto;">
+                            <div class="card-body">
+                              <h5 class="card-title">6 AYLIK <br>
+                                1 AY BİZDEN </h5>
+                              <h6 class="card-subtitle mb-2 text-muted">750 TL</h6>
+                              <p class="card-text">.%15 halı saha indirimi <br>
+                                .%15 market indirimi <br>
+                                .haftada bir kere ayakkabi kiralama ücretsiz <br>
+                              </p>
+                              <a href="#" class="card-link" style="color: green;">Satın Al</a>
+
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="col-md-6" style="margin-bottom:10px; margin-left: 155px;">
+                          <div class="card" style="width: auto; ">
+                            <div class="card-body">
+                              <h5 class="card-title">12 AYLIK
+                                <br>
+                                2 AYLIK BİZDEN
+                              </h5>
+                              <h6 class="card-subtitle mb-2 text-muted">1500 TL</h6>
+                              <p class="card-text">.%15 halı saha indirimi <br>
+                                .%15 market indirimi <br>
+                                .haftada bir kere ayakkabi kiralama ücretsiz <br>
+                              </p>
+                              <a href="#" class="card-link" style="color: green;">Satın Al</a>
+
+
+
+
+
+                            </div>
+                            
+                          </div>
+                        </div>
+
+
+
+
+
+                      </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-
+      </div>
     </div>
-    
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>

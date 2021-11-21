@@ -1,44 +1,232 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Broball</title>
-</head>
-<body>
-    <div class="container-fluid">
-        <div class="main-body">
-
-            <div class="row-gutters-sm">
-                <div class="col-md-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <form>
-                                <div class="mb-3">
-                                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                                </div>
-                                <div class="mb-3">
-                                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                                  <input type="password" class="form-control" id="exampleInputPassword1">
-                                </div>
-                                <div class="mb-3 form-check">
-                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                </div>
-                                <button type="submit" class="btn btn-primary">Submit</button>
-                              </form>
-                        </div>
-                    </div>
+<div class="container-fluid">
+    <div class="main-body">
+      <div class="row-gutters-sm">
+        <div class="col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <form class="row g-3 needs-validation" novalidate>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Ad</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
                 </div>
+                <div class="col-md-4">
+                  <label for="validationCustom02" class="form-label">Soyad</label>
+                  <input type="text" class="form-control" id="validationCustom02" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustomUsername" class="form-label">Kullanıcı Adı</label>
+                  <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                      aria-describedby="inputGroupPrepend" required>
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">E-mail</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Şifre</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Telefon Numaranız</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+  
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">İnstagram</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Twitter</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationCustom01" class="form-label">Facebook</label>
+                  <input type="text" class="form-control" id="validationCustom01" value="" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                </div>
+  
+                <div class="row g-3 ">
+  
+                  <div class="col-md-4">
+                    <label for="inputGün4" class="form-label">Gün</label>
+                    <div class="form-floating">
+                      <select class="form-select" required id="floatingSelectGrid"
+                        aria-label="Floating label select example">
+                        <option value="1">..</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                      </select>
+  
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputAy4" class="form-label">Ay</label>
+                    <div class="form-floating">
+                      <select class="form-select" required id="floatingSelectGrid"
+                        aria-label="Floating label select example">
+                        <option value="1">..</option>
+                        <option value="1">Ocak</option>
+                        <option value="2">Şubat</option>
+                        <option value="3">Mart</option>
+                        <option value="4">Nisan</option>
+                        <option value="5">Mayıs</option>
+                        <option value="6">Haziran</option>
+                        <option value="7">Temmuz</option>
+                        <option value="8">Ağustos</option>
+                        <option value="9">Eylül</option>
+                        <option value="10">Ekim</option>
+                        <option value="11">Kasım</option>
+                        <option value="12">Aralık</option>
+                      </select>
+  
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputYıl4" class="form-label">Yıl</label>
+                    <div class="form-floating">
+                      <select class="form-select" required id="floatingSelectGrid"
+                        aria-label="Floating label select example">
+                        <option value="1">..</option>
+                        <option value="1">2005</option>
+                        <option value="2">2004</option>
+                        <option value="3">2003</option>
+                        <option value="4">2002</option>
+                        <option value="5">2001</option>
+                        <option value="6">2000</option>
+                        <option value="7">1999</option>
+                        <option value="8">1998</option>
+                        <option value="9">1997</option>
+                        <option value="10">1996</option>
+                        <option value="11">1995</option>
+                        <option value="12">1994</option>
+                        <option value="13">1993</option>
+                        <option value="14">1992</option>
+                        <option value="15">1991</option>
+                        <option value="16">1990</option>
+                        <option value="17">1989</option>
+                        <option value="18">1988</option>
+                        <option value="19">1987</option>
+                        <option value="20">1986</option>
+                        <option value="21">1985</option>
+                        <option value="23">1984</option>
+                        <option value="24">1983</option>
+                        <option value="25">1982</option>
+                        <option value="26">1981</option>
+                        <option value="27">1980</option>
+                        <option value="28">1979</option>
+                        <option value="29">1978</option>
+                        <option value="30">1977</option>
+                        <option value="31">1976</option>
+                        <option value="19">1975</option>
+                        <option value="20">1974</option>
+                        <option value="21">1973</option>
+                        <option value="23">1972</option>
+                        <option value="24">1971</option>
+                        <option value="25">1970</option>
+                        <option value="26">1969</option>
+                        <option value="27">1968</option>
+                        <option value="28">1967</option>
+                        <option value="29">1966</option>
+                        <option value="30">1965</option>
+                        <option value="31">1964</option>
+                        <option value="19">1963</option>
+                        <option value="20">1962</option>
+                        <option value="21">1961</option>
+                        <option value="23">1960</option>
+                        <option value="24">1959</option>
+                        <option value="25">1958</option>
+                        <option value="26">1957</option>
+                        <option value="27">1956</option>
+                        <option value="28">1955</option>
+                        <option value="29">1954</option>
+                        <option value="30">1953</option>
+                        <option value="31">1952</option>
+                      </select>
+  
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">Mevki Seçiniz</label>
+                  <select required id="inputState" class="form-select">
+                    <option selected>...</option>
+                    <option>Kaleci</option>
+                    <option>Defans</option>
+                    <option>OrtaSaha</option>
+                    <option>Forvet</option>
+                  </select>
+                </div>
+                <div class="col-md-8">
+                  <label for="inputAdres" class="form-label">Adres</label>
+                  <input type="text" class="form-control" required id="inputAddres">
+                </div>
+  
+  
+  
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit"> Kaydı Tamamla</button>
+                </div>
+              </form>
             </div>
-
-
+          </div>
         </div>
+      </div>
     </div>
-
-    
-</body>
-</html>
